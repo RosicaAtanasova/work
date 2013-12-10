@@ -8,7 +8,7 @@
 
         var size = cc.Director.getInstance().getWinSize();
 
-        /************   na kartinkata razmera na dve  ********************
+        /************    ********************
 
              jetSprite.setPosition(new cc.Point(
             size.width - jetSprite.getContentSize().width/2, 
@@ -25,7 +25,7 @@
 
         jetSprite.setPosition(new cc.Point(size.width/2,size.height/2));  // pozicionirame samoleta v sredata
 
-        this.addChild(layer1); // dobavqme go na 
+        this.addChild(layer1);
 
 
 
